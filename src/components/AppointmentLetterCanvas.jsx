@@ -209,7 +209,7 @@ export default function AppointmentLetterCanvas({ member, allMembers = [], onSel
           >
             {/* Subtle Center Monogram Watermark */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.04]">
-              <img src="/assets/va_monogram_seal.png" alt="watermark" className="w-[450px] h-[450px] object-contain" />
+              <img src="./assets/va_monogram_seal.png" alt="watermark" className="w-[450px] h-[450px] object-contain" />
             </div>
 
             {/* LETTERHEAD HEADER */}
@@ -217,7 +217,7 @@ export default function AppointmentLetterCanvas({ member, allMembers = [], onSel
               <div className="border-b-4 border-double border-amber-500 pb-4 mb-4">
                 <div className="flex items-center justify-between">
                   <div className="w-20 h-20 rounded-full p-1 bg-white border-2 border-brand-gold flex items-center justify-center flex-shrink-0 shadow">
-                    <img src="/assets/va_monogram_seal.png" alt="Logo" className="w-full h-full object-contain" />
+                    <img src="./assets/va_monogram_seal.png" alt="Logo" className="w-full h-full object-contain" />
                   </div>
 
                   <div className="text-center flex-1 px-4">
@@ -324,7 +324,7 @@ export default function AppointmentLetterCanvas({ member, allMembers = [], onSel
               {/* Left: Medallion Seal */}
               <div className="flex items-center space-x-3">
                 <div className="w-16 h-16 relative">
-                  <img src="/assets/gold_medallion.png" alt="seal" className="w-full h-full object-contain filter drop-shadow mix-blend-multiply" />
+                  <img src="./assets/gold_medallion.png" alt="seal" className="w-full h-full object-contain filter drop-shadow mix-blend-multiply" />
                 </div>
                 <div>
                   <div className="text-[10px] font-serif font-bold text-amber-800 uppercase tracking-widest">
@@ -339,7 +339,7 @@ export default function AppointmentLetterCanvas({ member, allMembers = [], onSel
               {/* Right: Chairman Signature */}
               <div className="flex flex-col items-center">
                 <div className="w-44 h-14 flex items-center justify-center">
-                  <img src="/assets/chairman_signature.png" alt="signature" className="max-h-full object-contain filter contrast-150 mix-blend-multiply" />
+                  <img src="./assets/chairman_signature.png" alt="signature" className="max-h-full object-contain filter contrast-150 mix-blend-multiply" />
                 </div>
                 <div className="w-48 border-t border-slate-700 mt-1"></div>
                 <span className="text-xs font-serif font-bold text-brand-navy mt-0.5">

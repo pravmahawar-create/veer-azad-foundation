@@ -16,12 +16,12 @@ export default function Footer({ setActivePage }) {
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-full p-1 bg-white border-2 border-brand-gold flex items-center justify-center">
                 <img 
-                  src="/assets/va_monogram_seal.png" 
+                  src="./assets/va_monogram_seal.png" 
                   alt="Veer Azad Logo" 
                   className="w-full h-full object-contain rounded-full"
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = '/assets/logo_badge.png';
+                    e.target.src = './assets/logo_badge.png';
                   }}
                 />
               </div>

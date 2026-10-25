@@ -66,14 +66,14 @@ export default function IdCardCanvas({ member }) {
       >
         {/* Subtle Watermark */}
         <div className="absolute right-2 bottom-2 w-28 h-28 opacity-10 pointer-events-none">
-          <img src="/assets/va_monogram_seal.png" alt="watermark" className="w-full h-full object-contain" />
+          <img src="./assets/va_monogram_seal.png" alt="watermark" className="w-full h-full object-contain" />
         </div>
 
         {/* Card Header */}
         <div className="flex items-center justify-between border-b border-amber-500/40 pb-2 relative z-10">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 rounded-full p-0.5 bg-white border border-brand-gold flex items-center justify-center">
-              <img src="/assets/va_monogram_seal.png" alt="logo" className="w-full h-full object-contain" />
+              <img src="./assets/va_monogram_seal.png" alt="logo" className="w-full h-full object-contain" />
             </div>
             <div>
               <h4 className="text-xs font-black uppercase tracking-wider text-amber-300 font-serif">

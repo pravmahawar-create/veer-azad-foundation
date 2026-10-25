@@ -204,7 +204,7 @@ export default function CertificateCanvas({ member, onSelectOtherMember, allMemb
           {/* LEFT WATERMARK: Mountaineer / National Flag Climber */}
           <div className="absolute left-6 bottom-16 w-52 h-64 pointer-events-none opacity-20">
             <img 
-              src="/assets/mountaineer_watermark.png" 
+              src="./assets/mountaineer_watermark.png" 
               alt="Mountaineer Emblem" 
               className="w-full h-full object-contain filter grayscale contrast-125"
             />
@@ -213,7 +213,7 @@ export default function CertificateCanvas({ member, onSelectOtherMember, allMemb
           {/* RIGHT WATERMARK: Holy Varanasi Ghats & Temples */}
           <div className="absolute right-6 bottom-16 w-56 h-64 pointer-events-none opacity-20">
             <img 
-              src="/assets/ghats_watermark.png" 
+              src="./assets/ghats_watermark.png" 
               alt="Ghats Watermark" 
               className="w-full h-full object-contain filter grayscale contrast-125"
             />
@@ -222,7 +222,7 @@ export default function CertificateCanvas({ member, onSelectOtherMember, allMemb
           {/* CENTER BACKGROUND SUBTLE MONOGRAM EMBLEM */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.06]">
             <img 
-              src="/assets/va_monogram_seal.png" 
+              src="./assets/va_monogram_seal.png" 
               alt="Monogram Background" 
               className="w-96 h-96 object-contain"
             />
@@ -235,7 +235,7 @@ export default function CertificateCanvas({ member, onSelectOtherMember, allMemb
             <div className="flex justify-center mb-1">
               <div className="w-16 h-16 rounded-full p-1 bg-white shadow-md border-2 border-brand-gold flex items-center justify-center">
                 <img 
-                  src="/assets/va_monogram_seal.png" 
+                  src="./assets/va_monogram_seal.png" 
                   alt="Veer Azad Seal" 
                   className="w-full h-full object-contain"
                 />
@@ -329,7 +329,7 @@ export default function CertificateCanvas({ member, onSelectOtherMember, allMemb
             <div className="flex flex-col items-center -mb-2">
               <div className="relative w-24 h-24">
                 <img 
-                  src="/assets/gold_medallion.png" 
+                  src="./assets/gold_medallion.png" 
                   alt="Official Gold Foil Medallion Seal" 
                   className="w-full h-full object-contain filter drop-shadow-md mix-blend-multiply"
                 />
@@ -343,7 +343,7 @@ export default function CertificateCanvas({ member, onSelectOtherMember, allMemb
             <div className="flex flex-col items-center">
               <div className="w-44 h-16 flex items-center justify-center">
                 <img 
-                  src="/assets/chairman_signature.png" 
+                  src="./assets/chairman_signature.png" 
                   alt="Chairman Signature" 
                   className="max-h-full object-contain filter contrast-150 mix-blend-multiply"
                 />

@@ -22,7 +22,7 @@ export default function Home({ setActivePage, onOpenDonateModal, onSelectMemberF
       <section className="relative bg-gradient-to-br from-brand-navy-dark via-brand-navy to-slate-900 text-white py-16 sm:py-24 px-4 sm:px-8 overflow-hidden">
         {/* Subtle background graphics */}
         <div className="absolute right-0 top-0 bottom-0 w-1/2 opacity-10 pointer-events-none overflow-hidden">
-          <img src="/assets/ghats_watermark.png" alt="Ghats" className="w-full h-full object-cover filter contrast-125" />
+          <img src="./assets/ghats_watermark.png" alt="Ghats" className="w-full h-full object-cover filter contrast-125" />
         </div>
         <div className="absolute -left-12 -bottom-12 w-80 h-80 rounded-full bg-brand-gold/10 blur-3xl pointer-events-none"></div>
 
@@ -105,12 +105,12 @@ export default function Home({ setActivePage, onOpenDonateModal, onSelectMemberF
               <div className="relative rounded-lg overflow-hidden border border-stone-300 bg-white group cursor-pointer"
                    onClick={() => setActivePage('verify')}>
                 <img 
-                  src="/assets/veerazad_sample.jpg" 
+                  src="./assets/veerazad_sample.jpg" 
                   alt="Veer Azad Certificate Sample" 
                   className="w-full h-56 object-cover object-top"
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = '/assets/gold_medallion.png';
+                    e.target.src = './assets/gold_medallion.png';
                   }}
                 />
                 <div className="absolute inset-0 bg-brand-navy/60 opacity-0 group-hover:opacity-100 transition flex items-center justify-center text-white text-xs font-bold space-x-2">

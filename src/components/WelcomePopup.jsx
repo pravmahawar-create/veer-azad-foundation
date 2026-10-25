@@ -139,7 +139,7 @@ export default function WelcomePopup({ onOpenDonateModal, activePage = 'home' })
       {showPwaBanner && (
         <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-40 bg-white/95 backdrop-blur-md border border-stone-300 shadow-2xl rounded-full px-4 py-2 flex items-center space-x-3 max-w-sm w-full mx-4">
           <div className="w-8 h-8 rounded-full bg-brand-navy p-1 flex items-center justify-center flex-shrink-0">
-            <img src="/assets/va_monogram_seal.png" alt="VA" className="w-full h-full object-contain" />
+            <img src="./assets/va_monogram_seal.png" alt="VA" className="w-full h-full object-contain" />
           </div>
           <div className="flex-1 min-w-0">
             <div className="text-xs font-bold text-slate-900 truncate">Install Veer Azad App</div>

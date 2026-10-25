@@ -96,12 +96,12 @@ export default function Navbar({ activePage, setActivePage }) {
           >
             <div className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full p-1 bg-white shadow-md border-2 border-brand-gold flex items-center justify-center flex-shrink-0">
               <img 
-                src="/assets/va_monogram_seal.png" 
+                src="./assets/va_monogram_seal.png" 
                 alt="Veer Azad Logo" 
                 className="w-full h-full object-contain rounded-full"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = '/assets/logo_badge.png';
+                  e.target.src = './assets/logo_badge.png';
                 }}
               />
             </div>
