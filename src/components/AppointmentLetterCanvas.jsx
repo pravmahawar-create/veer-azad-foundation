@@ -194,6 +194,11 @@ export default function AppointmentLetterCanvas({ member, allMembers = [], onSel
         </div>
       </div>
 
+      {/* Mobile Swipe Guidance Notice */}
+      <div className="flex md:hidden items-center justify-center space-x-1.5 text-[11px] font-semibold text-amber-900 bg-amber-50/90 border border-amber-300 py-1.5 px-3 rounded-full text-center mb-3">
+        <span>↔️ Letter ko pura dekhne ke liye left-right swipe karein</span>
+      </div>
+
       {/* 2. MAIN APPOINTMENT LETTER CONTAINER (Standard A4 Portrait Proportion: 800px x 1130px) */}
       <div className="w-full flex flex-col lg:flex-row items-start justify-center gap-6 max-w-6xl">
         

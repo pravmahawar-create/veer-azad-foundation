@@ -152,19 +152,19 @@ export default function VerifyCertificate({ defaultQuery = '' }) {
                   </div>
                 </div>
 
-                {/* View Switcher Tabs */}
-                <div className="flex items-center space-x-2 bg-white p-1 rounded-xl border border-stone-200">
+                {/* View Switcher Tabs (Mobile Optimized Horizontal Scroll) */}
+                <div className="flex items-center space-x-1.5 bg-white p-1.5 rounded-xl border border-stone-200 overflow-x-auto max-w-full scrollbar-none whitespace-nowrap">
                   <button
                     onClick={() => setViewMode('summary')}
-                    className={`text-xs font-bold px-3 py-1.5 rounded-lg transition ${
-                      viewMode === 'summary' ? 'bg-brand-navy text-white' : 'text-slate-700 hover:bg-stone-100'
+                    className={`text-xs font-bold px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
+                      viewMode === 'summary' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-100'
                     }`}
                   >
                     Summary
                   </button>
                   <button
                     onClick={() => setViewMode('certificate')}
-                    className={`text-xs font-bold px-3 py-1.5 rounded-lg transition ${
+                    className={`text-xs font-bold px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
                       viewMode === 'certificate' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-100'
                     }`}
                   >
@@ -172,7 +172,7 @@ export default function VerifyCertificate({ defaultQuery = '' }) {
                   </button>
                   <button
                     onClick={() => setViewMode('appointment')}
-                    className={`text-xs font-bold px-3 py-1.5 rounded-lg transition ${
+                    className={`text-xs font-bold px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
                       viewMode === 'appointment' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-100'
                     }`}
                   >
@@ -181,7 +181,7 @@ export default function VerifyCertificate({ defaultQuery = '' }) {
                   {recordType === 'member' && (
                     <button
                       onClick={() => setViewMode('idcard')}
-                      className={`text-xs font-bold px-3 py-1.5 rounded-lg transition ${
+                      className={`text-xs font-bold px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
                         viewMode === 'idcard' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-100'
                       }`}
                     >

@@ -437,11 +437,11 @@ export default function AdminDashboard() {
           </div>
         </div>
 
-        {/* Tab Navigation */}
-        <div className="flex flex-wrap items-center gap-1.5 bg-stone-100 p-1.5 rounded-xl border border-stone-200 text-xs font-bold">
+        {/* Tab Navigation (Mobile Scrollable) */}
+        <div className="flex items-center gap-1.5 bg-stone-100 p-1.5 rounded-xl border border-stone-200 text-xs font-bold overflow-x-auto max-w-full scrollbar-none whitespace-nowrap">
           <button
             onClick={() => setActiveTab('members')}
-            className={`px-3 py-1.5 rounded-lg transition ${
+            className={`px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
               activeTab === 'members' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-200'
             }`}
           >
@@ -450,7 +450,7 @@ export default function AdminDashboard() {
           
           <button
             onClick={() => setActiveTab('campaigns')}
-            className={`px-3 py-1.5 rounded-lg transition ${
+            className={`px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
               activeTab === 'campaigns' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-200'
             }`}
           >
@@ -459,7 +459,7 @@ export default function AdminDashboard() {
 
           <button
             onClick={() => setActiveTab('resources')}
-            className={`px-3 py-1.5 rounded-lg transition ${
+            className={`px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
               activeTab === 'resources' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-200'
             }`}
           >
@@ -468,7 +468,7 @@ export default function AdminDashboard() {
 
           <button
             onClick={() => setActiveTab('team')}
-            className={`px-3 py-1.5 rounded-lg transition ${
+            className={`px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
               activeTab === 'team' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-200'
             }`}
           >
@@ -477,7 +477,7 @@ export default function AdminDashboard() {
 
           <button
             onClick={() => setActiveTab('news')}
-            className={`px-3 py-1.5 rounded-lg transition ${
+            className={`px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
               activeTab === 'news' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-200'
             }`}
           >
@@ -486,7 +486,7 @@ export default function AdminDashboard() {
 
           <button
             onClick={() => setActiveTab('volunteers')}
-            className={`px-3 py-1.5 rounded-lg transition ${
+            className={`px-3 py-1.5 rounded-lg transition flex-shrink-0 ${
               activeTab === 'volunteers' ? 'bg-brand-navy text-white shadow' : 'text-slate-700 hover:bg-stone-200'
             }`}
           >
@@ -495,7 +495,7 @@ export default function AdminDashboard() {
 
           <button
             onClick={() => setActiveTab('studio')}
-            className={`px-3 py-1.5 rounded-lg transition flex items-center space-x-1 ${
+            className={`px-3 py-1.5 rounded-lg transition flex items-center space-x-1 flex-shrink-0 ${
               activeTab === 'studio' ? 'bg-amber-500 text-slate-950 shadow' : 'text-slate-700 hover:bg-stone-200'
             }`}
           >
